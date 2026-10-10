@@ -1,5 +1,6 @@
 import { bdEstatico } from '../data/mockBd.js';
 
+//CANDIDATO
 export const registrarCandidato = (req, res) => {
   const { nome, telefone, dataNascimento, senha } = req.body;
   if (!nome || !telefone || !dataNascimento || !senha) return res.status(400).json({ erro: "Todos os campos são obrigatórios." });

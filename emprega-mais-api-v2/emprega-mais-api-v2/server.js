@@ -8,4 +8,5 @@ app.listen(PORT, () => {
   console.log(`Candidato: POST /api/candidatos/login | POST /api/candidatos/cadastro | GET /api/candidatos`);
   console.log(`Empresa:   POST /api/empresas/login    | POST /api/empresas/cadastro    | GET /api/empresas`);
   console.log(`Admin:     POST /api/admins/login      | POST /api/admins/cadastro      | GET /api/admins`);
+  console.log(`Vagas:     POST, GET, PUT, DELETE /api/vagas | Favoritas: POST, GET, DELETE /api/vagas-favoritas`);
 });

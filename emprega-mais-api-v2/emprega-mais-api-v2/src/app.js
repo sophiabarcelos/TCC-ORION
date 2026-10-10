@@ -3,6 +3,7 @@ import cors from 'cors';
 import authRoutes from './routes/authRoutes.js';
 import empresaRoutes from './routes/empresaRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
+import vagasRoutes from './routes/vagasRoutes.js';
 
 const app = express();
 
@@ -13,5 +14,6 @@ app.use(express.json());
 app.use('/api/candidatos', authRoutes); // Mantive a do candidato
 app.use('/api/empresas', empresaRoutes); // Novas rotas de empresa
 app.use('/api/admins', adminRoutes);     // Novas rotas de admin
+app.use('/api', vagasRoutes);       // Novas rotas de vaga
 
 export default app;

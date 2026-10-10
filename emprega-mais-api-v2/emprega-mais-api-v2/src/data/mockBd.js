@@ -30,5 +30,32 @@ export const bdEstatico = {
       nivelAcesso: "TOTAL",
       status: "ATIVO"
     }
-  ]
+  ],
+
+    vagas: [
+    {
+      idVaga: 1,
+      idEmpresa: 1,
+      idLocalizacao: 1,
+      titulo: "Desenvolvedor Front-End ",
+      descricao: "Vaga para atuar com React e JavaScript.",
+      atividades: "Desenvolver componentes, corrigir bugs.",
+      requisitos: "Conhecimento em HTML, CSS, JS e React.",
+      salario: 3500.00,
+      tipoContratacao: "CLT",
+      modeloTrabalho: "Híbrido",
+      dataPublicacao: "2026-06-01",
+      dataEncerramento: "2026-06-30",
+      status: "Ativa"
+    }
+  ],
+
+     vagasFavoritas : [
+    {
+      idFavorita: 1,
+      idCandidato: 1,
+      idVaga: 1,
+      dataSalvamento: "2026-06-02"
+    }
+  ],
 };
